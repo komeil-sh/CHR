@@ -14,5 +14,5 @@ If you have an ubuntu virtual server and you have an installment plan, install M
 
 # Run the script
 ```
-bash <(curl -s https://github.com/komeil-sh/CHR/raw/refs/heads/main/CHR.sh)
+bash <(curl -s https://raw.githubusercontent.com/komeil-sh/CHR/main/CHR.sh)
 ```
