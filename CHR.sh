@@ -39,11 +39,6 @@ loading
 # Get the OS version
 OS_VERSION=$(lsb_release -ds)
 
-# Check OS version and display a warning if not Ubuntu 20 or 22
-if [[ "$OS_VERSION" != "Ubuntu 20.04 LTS" && "$OS_VERSION" != "Ubuntu 22.04 LTS" && "$OS_VERSION" != "Ubuntu 20.04.5 LTS" ]]; then
-    echo -e "${RED}$(center_text 'Error: This script is only compatible with Ubuntu 20.04 and 22.04.')${END}"
-    exit 1
-fi
 
 # Display the formatted header
 echo -e "${BLUE}$(center_text '╔═══════════════════════════════════════════╗')"
